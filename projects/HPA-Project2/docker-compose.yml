@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hpaproject2:
+    image: hpaproject2
+    build:
+      context: .
+      dockerfile: ./Dockerfile
